@@ -8,6 +8,7 @@ export default function Home() {
         <>
             <Header />
             <main className={styles.main}>
+                <img src="/favicon.ico" alt="My Image" className="logo" />
                 <h1 className={styles.title}>Welcome to My Blog</h1>
                 <div className={styles.grid}>
                     <div className={styles.card}>
