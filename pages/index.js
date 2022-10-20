@@ -1,5 +1,5 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
@@ -11,7 +11,7 @@ export default function Home() {
                 <h1 className={styles.title}>Welcome to My Blog</h1>
                 <div className={styles.grid}>
                     <div className={styles.card}>
-                        <Link href="/posts/first-post">
+                        <Link href="/components/Layout/">
                             <h3>First Post</h3>
                         </Link>
                         <p>
