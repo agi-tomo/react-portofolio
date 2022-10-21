@@ -1,5 +1,5 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
@@ -10,6 +10,7 @@ export default function Home() {
             <main className={styles.main}>
                 <img src="/favicon.ico" alt="My Image" className="logo" />
                 <h1 className={styles.title}>Welcome to My Blog</h1>
+                <p className={styles.code}>Hello World!</p>
                 <div className={styles.grid}>
                     <div className={styles.card}>
                         <Link href="/posts/first-post">
@@ -23,7 +24,7 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-            <Footer />
+            <Footer className={styles.footer} />
         </>
     );
 }
