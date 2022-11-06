@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Layout from "../components/layout";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Head from "next/head";
@@ -21,6 +22,7 @@ export default function Home() {
                     height={250}
                     alt="profile"
                 />
+                <Layout />
                 <h1 className={styles.title}>Welcome to My Blog</h1>
                 <p className={styles.code}>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
